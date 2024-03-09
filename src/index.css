@@ -1,0 +1,103 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9pt;
+}
+
+.full-height {
+  display: flex;
+  flex-direction: column; 
+  height: 100vh; 
+}
+
+:focus {
+  outline: none;
+}
+
+.loginheader {
+  background-color: rgb(136, 60, 183);
+  height: 50px;
+  color: white;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 12pt;
+  text-align: center; 
+}
+
+.logincontent {
+  flex: 1; 
+  background-image: url('images/API.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.445);
+  display: none;
+}
+
+.popupwindow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  background-color: rgba(245, 245, 245, 0.836);
+  border-radius: 5px;
+}
+
+.loginstyle1 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center; 
+}
+
+.loginstyle2 {
+  height: auto; 
+  padding: 10px;
+  background-color: rgba(245, 245, 245, 0.836);
+}
+
+.txtbox {
+  width: calc(100% - 4px);
+  height: 30px;
+  font-size: 10pt;
+  border: 1px solid rgba(192, 192, 192, 0.577);
+  border-radius: 3px;
+  margin-bottom: 10px; 
+  box-sizing: border-box; 
+}
+
+.btn {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(57, 2, 220);
+  color: white;
+  border: 1px solid silver;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold; 
+}
+
+.linklabel {
+  color: rgb(255, 30, 120);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(57, 2, 170); 
+}
+
+.btn:focus {
+  outline: none; 
+  box-shadow: 0 0 0 2px rgba(57, 2, 220, 0.5); 
+}
+
